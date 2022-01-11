@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 1060px;
+    width: 100%;
+    background: url(./img/signin.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    background: linear-gradient(172.37deg, #FFFFFF 9.7%, rgba(255, 252, 252, 0.1) 100.84%, rgba(196, 196, 196, 0) 100.85%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 30px;
+    width: 727px;
+    height: 714px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: 50px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.signin-text{
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 41px;
+    text-align: center;
+    color: #F56E0B;
+}
+.labels{
+    font-size: 24px;
+    line-height: 33px;
+    color: rgba(245, 110, 11, 0.8);
+}
+form{
+    max-width: 541px;
+}
+.username-part{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    background: #FFFEE8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    border: none;
+    width: 70%;
+    margin: auto;
+
+}
