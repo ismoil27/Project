@@ -19,16 +19,22 @@
     </header>
     <main>
         <div class="container">
-            <p class="signin-text">Sign in</p>
+            <div class="signin-text-div">
+                <p class="signin-text">Sign in</p>
+            </div>
             <form>
                 <div class="username-part">
-                    <label class="username labels" for="username">Username or e-mail</label>
-                    <input type="text" name="" id="username">
+                    <label class="username labels" for="username" >Email</label>
+                    <input type="text" name="" id="username" placeholder="Please enter your email" required>
                 </div>
                 <div class="password-part">
-                    <label class="labels" for="password">Password</label>
-                    <input type="password" name="password" id="password">
+                    <label class="labels" for="password" >Password</label>
+                    <input type="password" name="password" id="password" placeholder="Please enter your password" required>
                 </div>
+                <div class="signin-link-section">
+                    <a class="signin-link" href="#">Sign in</a>
+                </div>
+                
             </form>
 
         </div>

@@ -24,22 +24,26 @@ body{
 form{
     display: flex;
     flex-direction: column;
+    width: 70%;
+    margin: 10px auto;
 }
 .signin-text{
+    padding-top: 52px;
     font-weight: 900;
     font-size: 35px;
     line-height: 41px;
     text-align: center;
     color: #F56E0B;
+    margin-bottom: 48px;
 }
 .labels{
     font-size: 24px;
     line-height: 33px;
     color: rgba(245, 110, 11, 0.8);
 }
-form{
+/* form{
     max-width: 541px;
-}
+} */
 .username-part{
     display: flex;
     flex-direction: column;
@@ -49,7 +53,37 @@ input{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
     border: none;
-    width: 70%;
-    margin: auto;
+    width: 541px;
+    height: 70px;
+    /* width: 70%; */
+    margin: 10px auto;
+}
+.password-part{
+    display: flex;
+    flex-direction: column;
+}
 
+.signin-link{
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    /* background-color: #FFC700;
+     width: 166px;
+    height: 36px;
+    padding: 15px 40px;
+    border-radius: 10px;  */
+}
+.signin-link-section{
+    margin: 0 auto;
+    margin-top: 34px;
+    width: 166px;
+    height: 36px;  
+    width: 166px;
+    height: 36px;
+    background: #FFC700;
+    border-radius: 10px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center; 
 }
