@@ -87,3 +87,18 @@ input{
     justify-content: center;
     align-items: center; 
 }
+input:focus{
+    outline: 2px solid orange; 
+    box-shadow: 0 0 8px orange;
+
+  }
+input::-webkit-input-placeholder {
+    color: #757575;
+}
+input:focus::-webkit-input-placeholder {
+    color: #000;
+}
+input::placeholder {  
+    font-size: 15px;
+    padding-left: 10px; 
+} 
