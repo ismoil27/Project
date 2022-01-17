@@ -1,0 +1,18 @@
+body{
+    height: 1100px;
+    width: 100%;
+    background: url(./img/Story.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.writestory-text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 41px;
+    /* identical to box height */
+    text-align: center;
+    color: #F56E0B;
+}

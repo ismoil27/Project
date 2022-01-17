@@ -102,3 +102,31 @@ input::placeholder {
     font-size: 15px;
     padding-left: 10px; 
 } 
+
+/* sign up part */
+
+.iconswith-text{
+    text-align: center;
+}
+.orsignup{
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #F56E0B;
+    margin-bottom: 10px;
+}
+.supI{
+    width: 41px;
+    height: 41px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-right: 15px;
+    padding: 10px;
+    background-color: #fff;
+}
+.supI:hover{
+    cursor: pointer;
+    background-color: rgb(219, 212, 212);
+    box-shadow: 0 0 8px rgb(59, 58, 58);
+
+}

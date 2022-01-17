@@ -52,6 +52,10 @@ html{
     display: flex;
     flex-direction: column;
 }
+.indexlinks{
+    text-decoration: none;
+    color: #fff;
+}
 .cover-text{
     margin-top: 50px;
 }
@@ -513,6 +517,9 @@ footer{
     color: #00a0dc;
 }
 
+@media (max-width: 600px) {
+
+}
 
 
 
